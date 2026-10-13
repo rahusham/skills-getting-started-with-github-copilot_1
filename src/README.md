@@ -1,4 +1,4 @@
-# Mergington High School Activities API
+# Delhi Public School Activities API
 
 A super simple FastAPI application that allows students to view and sign up for extracurricular activities.
 

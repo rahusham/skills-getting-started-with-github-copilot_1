@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mergington High School Activities</title>
+    <title>Delhi Public School Activities</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Mergington High School</h1>
-      <h2>Extracurricular Activities</h2>
+      <div class="header-content">
+        <div class="header-title">
+          <h1>Delhi Public School</h1>
+          <h2>Extracurricular Activities</h2>
+        </div>
+        <img
+          class="school-picture"
+          src="school.svg"
+          alt="Illustration of a school building"
+        />
+      </div>
     </header>
+
+    <div class="welcome-banner" aria-label="Welcome to our school">
+      <p>Welcome to our school!</p>
+    </div>
 
     <main>
       <section id="activities-container">
@@ -41,8 +54,13 @@
       </section>
     </main>
 
+    <aside class="principal-message" aria-labelledby="principal-message-title">
+      <h3 id="principal-message-title">Principal's Message</h3>
+      <p>Hello Parents</p>
+    </aside>
+
     <footer>
-      <p>&copy; 2023 Mergington High School</p>
+      <p>&copy; 2023 Delhi Public School</p>
     </footer>
 
     <script src="app.js"></script>
